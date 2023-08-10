@@ -9,7 +9,9 @@ For fellow linux users (and probably mac users as well), this also provides a sc
 - Documentation: https://pynare.readthedocs.io/en/latest/
 - Bug tracker: https://github.com/gboehl/pynare/issues
 
-**NOTE:** Since I do not have to use dynare anymore, this is no longer under development! Before, this was at a very early stage and not well-tested (and not tested at all on Windows). Comments via the `bug tracker <https://github.com/gboehl/pynare/issues>`_ are still welcome. 
+**NOTE:** Since my other packages have sufficiently matured, I do not have to use dynare anymore. This means that this is no longer under active development! Check out my `econpizza <https://github.com/gboehl/econpizza>`_ package for the solution and simulation of nonlinear DSGE models (with or without heterogeneous agents).   
+
+Comments via the `bug tracker <https://github.com/gboehl/pynare/issues>`_ are still welcome. 
 
 Motivation
 ----------
@@ -20,6 +22,7 @@ The declared goal of this project is to provide access to Dynare without having 
 Usage
 -----
 
+I assume that you have dynare installed and added to your octave/matlab path permanently.
 Package import and running a modfile:
 
 .. code-block:: python
@@ -59,7 +62,7 @@ Installation is as simply as running (Windows users from the Anaconda Prompt):
 
    pip install pynare
 
-Of course, installing Dynare remains your responibility.
+Of course, installing Dynare remains your responibility. Also, be sure that dynare is added to your octave/matlab path.
 
 If you care for the bleeding edge developing version (which, at this stage, is recommended), the handy way is to install via the ``git``-command. If you hav not yet installed ``git``, Windows users get it here: https://git-scm.com/download/win (Linux users just use the repo of their distro). Then:
 
